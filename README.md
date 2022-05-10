@@ -18,7 +18,7 @@ phases:
     commands:
       - echo "Building phase..."
       - echo "Testing phase..."
-      - grep -Fq "Hello World!" index.js
+      - grep -Fq "Hello World!" index.html
 
   post_build:
     commands:
